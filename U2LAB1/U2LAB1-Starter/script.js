@@ -1,6 +1,5 @@
 
 // Mild Challenges 
-
 /// The three siblings get their allowance once a week.
 /// Their current obsession is buying unique card games and collecting shoes.
 /// Below is the total money they split weekly, their names, and the price of
@@ -12,6 +11,10 @@ let sibling2 = "Quinn";
 let sibling3 = "Ricardo Montoya De La Rosa Ramirez";
 let game = 15.99;
 let shoes = 89.78;
+
+var value = 'frank';
+const yourName = prompt('enter name: ', value);
+console.log(yourName)
 
 
 
@@ -72,11 +75,11 @@ const addNums = (x, y) => {
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
-    if( ) { 
-        return "Welcome Queen!";
-    } else {
-        return `Sorry {name}, you're not Beyonce`;
-    }
+    // if( ) { 
+    //     return "Welcome Queen!";
+    // } else {
+    //     return `Sorry {name}, you're not Beyonce`;
+    // }
 }
 // Test "Beyonce" and other names to ensure it works
 
@@ -85,11 +88,11 @@ const isBeyonce = (name) => {
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
 const reduceEvens = (x) => {
-    if( ){
+    // if( ){
 
-    } else {
-        return x;
-    }
+    // } else {
+    //     return x;
+    // }
 }
 //Write your own function calls
 
@@ -103,12 +106,13 @@ const shortenString = (string) => {
 
 
 // Spicy Challenges
-let burger = 5.99;
-let fries = 3.99;
-let soda = 1.99;
+let burger = 5.00;
+let fries = 3.00;
+let soda = 1.00;
 
 // 15. Write a function buyBurgers(budget) that takes in a budget amount and returns the number of burgers that can be bought.
-/// If no burgers can be bought, return "Sorry, no burgers for you."
+// Prompt the user for their budget and call the function.
+/// If no burgers, fries, and sodas can be bought, return "Sorry, no burgers for you."
 
 const buyBurgers = (budget) => {
 
@@ -116,6 +120,7 @@ const buyBurgers = (budget) => {
 
 // 16. A meal consists of 1 burger, 1 fry, and 1 soda.
 /// Write a function called buyMeals(budget) that tells the user how many meals they can buy and how much money they will have left over.
+// Prompt the user for their budget and call the function.
 /// Bonus: Round the answer to the nearest penny.
 const buyMeals = (budget) => {
 
@@ -123,6 +128,7 @@ const buyMeals = (budget) => {
 
 
 // 17. [Challenge] Write a function missingLeg(side1, side2) that takes in the length of a hypotenuse and a leg of a right triangle and prints out the missing leg's length
+// Prompt the user for the two sides and call the function
 /// The larger side should be the hypotenuse  
 
 
@@ -130,3 +136,4 @@ const buyMeals = (budget) => {
 // 18. [Super Challenge] In math, Factorial is the product of an integer and all the integers below it.
 /// For example: factorial(3) = 3*2*1 = 6 ---  factorial(5) = 5*4*3*2*1 = 120
 /// Write a function factorial(x) that finds the factorial of any integer.
+// Prompt the user for a number and call the function

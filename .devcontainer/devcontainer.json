@@ -1,0 +1,22 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "negokaz.live-server-preview",
+        "PKief.material-icon-theme"
+      ]
+    },
+    "settings": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false
+    },
+    "codespaces": {
+      "extensions": ["esbenp.prettier-vscode", "negokaz.live-server-preview"]
+    }
+  },
+  "postCreateCommand": "code --install-extension negokaz.live-server-preview && code --command extension.liveServerPreview.open"
+}

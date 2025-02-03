@@ -1,5 +1,8 @@
 // Fundamental data types
 
+// Typeof
+
+// Let vs Const vs Var
 
 // Reassignment (no let)
 
@@ -7,6 +10,8 @@
 // Essential Operations
 
 // Additional operations
+
+// User Input
 
 
 // Concatenation v. templates
@@ -21,7 +26,7 @@
 
 
 
-// functions
+// Functions
 
 // Returns half the number if it can be halved; otherwise returns false
 
